@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Welcome back, Stacy</title>
+
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="fa/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/popup.css">
+      
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jscolor.js"></script>
+      <script src="js/popup.js"></script>
+      
+  </head>
+  <body id="picture">
+    <div class="container-fluid buy">
+       <div class="row text-center">
+          <h1 class="header words" id="greetings">Hello, <input type="text" id="name"></h1>
+          <input id="quote" type="text" placeholder="Your Quote Here" class = "words">
+          <br><br>
+          <div id="timeline" class = "words">Clock's ticking: <div id="time"></div></div>
+       </div>
+       <div class="row text-center">
+         <div class="col-lg-6">
+           <div id="div7" contenteditable></div>
+          </div>
+          <div class="col-lg-6">
+             <div class="movable" id ="div2">Notes/reminders:<br><textarea id ="todo2"></textarea></div>
+          </div>
+       </div>
+    </div>
+    <footer class="footer"> 
+        <button class="button">Change Settings <i class="fa fa-cog"></i></button>
+        <div id="settings">
+          <p><b>Choose a background picture:</b><input id="picUpload" type='file'></p>
+          <p><b>Choose font colour:</b> <input class="color" value="#FFFFF" placeholder="color for header and quote"></p>
+          <p><b>Choose a font: </b></p>
+          <select id = "fonts">
+            <option value="manifesto">Manifesto</option>
+            <option value="bellaboo">Bellaboo</option>
+            <option value="fabfelt">FabFelt</option>
+          </select>
+        </div>
+     </footer>
+  </body>
+</html>

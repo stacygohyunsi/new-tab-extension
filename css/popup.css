@@ -1,0 +1,64 @@
+body{
+	background-size: cover;
+
+}
+.buy{
+	padding-top: 50px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+input[type="text"]{
+	background: transparent;
+	border:none;
+	text-align: center;
+}
+
+#greetings{
+	font-size: 70px;
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+#quote{
+	font-style: italic;
+	font-size: 40px;
+	text-align: center;
+	width: 90%;
+}
+#timeNow, #time{
+	font-size: 20px;
+}
+#div1, textarea{
+	background-color: white;
+	opacity: 0.5;
+	border:none;
+	width: 70%;
+	height: 150px;
+	color:black;
+	padding:30px;
+	overflow: scroll;
+
+}
+
+#settings{
+  display:none;
+  background-color:white;
+  width: 30%;
+}
+
+@font-face {
+    font-family: bellaboo;
+    src: url(../fa/fonts/bellaboo.ttf);
+}
+
+@font-face {
+    font-family: manifesto;
+    src: url(../fa/fonts/manifesto.ttf);
+}
+
+@font-face {
+    font-family: fabfelt;
+    src: url(../fa/fonts/fabfeltscript.ttf);
+}
